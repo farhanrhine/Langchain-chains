@@ -1,9 +1,9 @@
 from langchain_ollama import ChatOllama
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-load_dotenv()
+#load_dotenv()
 
 prompt1 = PromptTemplate(
     template='Generate a detailed report on {topic}',
@@ -15,7 +15,7 @@ prompt2 = PromptTemplate(
     input_variables=['text']
 )
 
-model = ChatOllama(model_name='tinydolphin')
+model = ChatOllama(model='tinydolphin')
 
 parser = StrOutputParser()
 
