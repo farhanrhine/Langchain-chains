@@ -7,4 +7,7 @@
 3. parallel_chain.py output:
 ![alt text](parallel_chain.png)
 
+4. conditional_chain.py output:
+![alt text](conditional_chain.png)
+
 
