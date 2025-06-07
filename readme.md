@@ -39,7 +39,3 @@ Dubai is a city in the United Arab Emirates, located on an archipelago of island
 | StrOutputParserOutput |
 +-----------------------+
 
-
-
-   <pre> +-------------+ | PromptInput | +-------------+ * * +----------------+ | PromptTemplate | +----------------+ * * +------------+ | ChatOllama | +------------+ * * +-----------------+ | StrOutputParser | +-----------------+ * * +-----------------------+ | StrOutputParserOutput | +-----------------------+ </pre>
-
