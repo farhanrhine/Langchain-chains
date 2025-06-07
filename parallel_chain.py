@@ -1,14 +1,14 @@
 from langchain_ollama import ChatOllama
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain.schema.runnable import RunnableParallel
 
-load_dotenv()
+#load_dotenv()
 
-model1 = ChatOllama(model_name='tinydolphin')
+model1 = ChatOllama(model='tinydolphin')
 
-model2 = ChatOllama(model_name='qwen3:0.6b')
+model2 = ChatOllama(model='qwen3:0.6b')
 
 prompt1 = PromptTemplate(
     template='Generate short and simple notes from the following text \n {text}',
@@ -27,12 +27,13 @@ prompt3 = PromptTemplate(
 
 parser = StrOutputParser()
 
+#parallel chain
 parallel_chain = RunnableParallel({
     'notes': prompt1 | model1 | parser,
     'quiz': prompt2 | model2 | parser
 })
-
-merge_chain = prompt3 | model1 | parser
+# merge parallel 
+merge_chain = prompt3 | model1 | parser # you can used any model for merge chain
 
 chain = parallel_chain | merge_chain
 

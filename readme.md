@@ -4,3 +4,7 @@
 2. sequential_chain.py output:
 ![alt text](sequential_chain.png)
 
+3. parallel_chain.py output:
+![alt text](parallel_chain.png)
+
+
