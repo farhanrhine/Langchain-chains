@@ -11,3 +11,8 @@ Dubai is a city in the United Arab Emirates, located on an archipelago of island
 4. The Burj Al Arab is a five-star hotel located on an artificial island within the Dubai Marina. This elegant structure offers stunning views of the city's skyline and features luxurious accommodations, a top-class spa, multiple dining options, and a prestigious nightclub.
 
 5. The Palm Jumeirah is a unique man-made island located just off the coast of Dubai. It is a stunning architectural marvel that offers breathtaking views, a beautiful beach, and an array of luxurious accommodations for visitors seeking the ultimate retreat from everyday life.
+
+![alt text](image.png)
+
+![alt text](simple chain.png)
+
