@@ -1,4 +1,5 @@
 1. simple_chain.py output:
+![alt text](image.png)
 
 Dubai is a city in the United Arab Emirates, located on an archipelago of islands off the southern coast of the Persian Gulf. The city has gained prominence due to its unique architecture, luxurious hotels and malls, vibrant cultural scene, and outstanding recreational opportunities.
 
@@ -12,7 +13,4 @@ Dubai is a city in the United Arab Emirates, located on an archipelago of island
 
 5. The Palm Jumeirah is a unique man-made island located just off the coast of Dubai. It is a stunning architectural marvel that offers breathtaking views, a beautiful beach, and an array of luxurious accommodations for visitors seeking the ultimate retreat from everyday life.
 
-![alt text](image.png)
-
-![alt text](simple chain.png)
 
